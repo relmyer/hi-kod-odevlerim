@@ -1,0 +1,32 @@
+// ödev 1
+void main() {
+ //bir dizi tanımladım ve onu ekrana bastırdım
+List<int>dizi = [1,2,3,4,5];
+print(dizi);
+}
+
+//tersine çevirme işlemiş için komut baktım ve tersine çevirme işlemi için kullanılan kodu yazdım
+List<int>tersDizi = dizi.reversed.toList();
+print(tersDizi);
+
+// üstteki gibi yazınca hata verdi bende diziyi tekrar tanımlkadım bu sefer onu yazdırmadım ve bu şekilde çalıştıdım
+
+void main (){
+List<int> dizi = [1, 2, 3, 4, 5];
+List<int> tersDizi = dizi.reversed.toList();
+print(tersDizi);  
+}
+
+//ödev 2
+void main(){
+List<int> numbers = [5, 10, 15, 20, 25];
+ int toplama = toplamaBul(numbers);
+ print(toplama);
+}
+//bunda hata alıyorum :c
+
+//ödev 3
+// bunun için döngü bilmemiz gerekiyromuş galiab daha o kısıma geçmedik o yüzden burayı boş bıraktım gördüğümüzde yapacağım
+void main(){
+
+}
