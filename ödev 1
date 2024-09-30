@@ -26,7 +26,12 @@ List<int> numbers = [5, 10, 15, 20, 25];
 //bunda hata alıyorum :c
 
 //ödev 3
-// bunun için döngü bilmemiz gerekiyromuş galiab daha o kısıma geçmedik o yüzden burayı boş bıraktım gördüğümüzde yapacağım
-void main(){
-
+void main() {
+Set<int> sayilar = {1, 2, 3, 4, 5, 9, 10, 11};
+  if (sayilar.contains(10)) {
+    print("10 bulundu");
+  } else {
+    print("10 bulunamadı");
+  }
 }
+
