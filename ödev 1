@@ -18,12 +18,16 @@ print(tersDizi);
 }
 
 //ödev 2
-void main(){
-List<int> numbers = [5, 10, 15, 20, 25];
- int toplama = toplamaBul(numbers);
- print(toplama);
+void main() {
+  Map<String, int> notlar = {'Ali': 4, 'Veli': 6, 'Ahmet': 8};
+  int toplam = notlar.values.reduce((a, b) => a + b);
+  if (toplam > 10) {
+    print("Büyük");
+  } else {
+    print("Küçük");
+  }
 }
-//bunda hata alıyorum :c
+
 
 //ödev 3
 void main() {
