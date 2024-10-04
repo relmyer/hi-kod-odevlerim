@@ -1,0 +1,33 @@
+// soru 1
+void main() {
+  List<int> sayilar = [3, 6, 9];
+  print("toplam: ${toplam(sayilar)}");
+}
+
+int toplam(List<int> sayilar) {
+  int sum = 0;
+  for (var sayi in sayilar) {
+    sum += sayi;
+  }
+  return sum;
+}
+
+// soru 2
+
+
+List<int> tekSayilariBul(List<int> sayilar) {
+  return [for (int sayilar in sayilar) if (sayilar % 2 != 0) sayilar];
+}
+void main() {
+  const List<int>sayilar =[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  print('Tek Sayılar: ${tekSayilariBul(sayilar)}');
+}
+// soru 3
+
+  List<a> tersCevir<a>(List<a> liste) {
+  return List.from(liste.reversed);
+}
+void main() {
+  List<int> sayilar = [1, 2, 3, 4, 5];
+  print('Ters liste: ${tersCevir(sayilar)}');
+
