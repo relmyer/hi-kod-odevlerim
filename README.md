@@ -1,0 +1,1 @@
+verilen ödevleri buraya ekliyorum 
